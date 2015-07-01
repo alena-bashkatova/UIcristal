@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* line 5, ../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'Tunga';
+  src: url("../../../fonts/Tunga/Tunga.eot");
+  src: local("☺"), url("../../../fonts/Tunga/Tunga.woff") format("woff"), url("../../../fonts/Tunga/Tunga.ttf") format("truetype"), url("../../../fonts/Tunga/Tunga.svg") format("svg");
+}
+@font-face {
+  font-family: 'Tunga-Bold';
+  src: url("../../../fonts/Tunga-Bold/Tunga-Bold.eot");
+  src: local("☺"), url("../../../fonts/Tunga-Bold/Tunga-Bold.woff") format("woff"), url("../../../fonts/Tunga-Bold/Tunga-Bold.ttf") format("truetype"), url("../../../fonts/Tunga-Bold/Tunga-Bold.svg") format("svg");
+}
+/* line 1, ../scss/_base.scss */
+html, body {
+  height: 100%;
+}
+/* line 4, ../scss/_base.scss */
+html main, body main {
+  width: 100%;
+  height: 100%;
+  padding-top: 217px;
+  background-image: url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Tunga", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 16, ../scss/_base.scss */
+html main h1, body main h1 {
+  font-size: 80px;
+  color: #fefefe;
+}
+@media (max-width: 530px) {
+  /* line 16, ../scss/_base.scss */
+  html main h1, body main h1 {
+    font-size: 40px;
+  }
+}
+/* line 23, ../scss/_base.scss */
+html main h1 .big, body main h1 .big {
+  position: relative;
+  font-size: 135px;
+}
+@media (max-width: 530px) {
+  /* line 23, ../scss/_base.scss */
+  html main h1 .big, body main h1 .big {
+    font-size: 80px;
+  }
+}
+/* line 30, ../scss/_base.scss */
+html main h1 .big::before, body main h1 .big::before {
+  position: absolute;
+  top: -12px;
+  left: 33px;
+  content: '';
+  display: block;
+  width: 32px;
+  height: 38px;
+  background-image: url(../../images/icon.png);
+}
+@media (max-width: 530px) {
+  /* line 30, ../scss/_base.scss */
+  html main h1 .big::before, body main h1 .big::before {
+    top: -6px;
+    left: 21px;
+    width: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+/* line 50, ../scss/_base.scss */
+html main h2, body main h2 {
+  margin-top: 20px;
+  font-size: 36px;
+  color: #ffffff;
+}
+@media (max-width: 530px) {
+  /* line 50, ../scss/_base.scss */
+  html main h2, body main h2 {
+    font-size: 18px;
+  }
+}
+/* line 59, ../scss/_base.scss */
+html main p, body main p {
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 1.8;
+  color: #c7ebfd;
+}
+@media (max-width: 530px) {
+  /* line 59, ../scss/_base.scss */
+  html main p, body main p {
+    font-size: 14px;
+  }
+}
+/* line 68, ../scss/_base.scss */
+html main p .date, body main p .date {
+  color: #9fe1ff;
+}
